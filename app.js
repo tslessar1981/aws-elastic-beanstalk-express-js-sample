@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Setting up home PC for Git'));
+app.get('/', (req, res) => res.send('Pushing a new commit to the repo'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
